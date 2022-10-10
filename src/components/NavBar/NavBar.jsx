@@ -15,7 +15,7 @@ class Navigation extends Component {
   render() {
     const { activeItem } = this.state;
     return (
-      <>
+      <div className="nav-bar">
         <p className="header-img-name">
           <Image circular centered size="tiny" src="https://i.imgur.com/yG48EBV.png" />
           Jason Shprintz
@@ -55,7 +55,7 @@ class Navigation extends Component {
             </Menu.Item>
           </Menu>
         </Grid>
-      </>
+      </div>
     );
   }
 }
