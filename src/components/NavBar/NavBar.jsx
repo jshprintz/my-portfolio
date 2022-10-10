@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Menu, Grid, Header, Image } from "semantic-ui-react";
-import { NavLink } from "react-router-dom";
+import { Menu, Grid, Image } from "semantic-ui-react";
+import { NavLink, Link } from "react-router-dom";
 import "./NavBar.css";
 
 class Navigation extends Component {
@@ -16,11 +16,14 @@ class Navigation extends Component {
     const { activeItem } = this.state;
     return (
       <div className="nav-bar">
+        
+        <Link to="/">
         <p className="header-img-name">
           <Image circular centered size="tiny" src="https://i.imgur.com/yG48EBV.png" />
           Jason Shprintz
         </p>
-
+        </Link>
+        <br />
         <Grid centered>
           <Menu className="Navigation" compact borderless>
             <Menu.Item
