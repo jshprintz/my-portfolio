@@ -5,6 +5,7 @@ import HaikuCard from "../../components/HaikuCard/HaikuCard";
 import MinesweeperCard from "../../components/MinesweeperCard/MinesweeperCard";
 import BowlingCard from "../../components/BowlingCard/BowlingCard";
 import DrunkCard from "../../components/iDrunkCard/iDrunkCard";
+import Footer from "../../components/Footer/Footer";
 import "./PortfolioPage.css";
 
 function PortfolioPage() {
@@ -12,7 +13,9 @@ function PortfolioPage() {
     <>
       <NavBar />
       <div className="cards">
-        <h1>This is the portfolio page</h1>
+        <br />
+        <h2>My Portfolio</h2>
+        <br />
         <Card.Group itemsPerRow={2} stackable centered>
           <HaikuCard />
           <MinesweeperCard />
@@ -20,6 +23,13 @@ function PortfolioPage() {
           <DrunkCard />
         </Card.Group>
       </div>
+      <div>
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+      <Footer />
     </>
   );
 }

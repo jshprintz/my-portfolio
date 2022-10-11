@@ -1,11 +1,15 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
+import "./ContactPage.css"
 
 function ContactPage() {
   return (
     <>
       <NavBar />
-      <h1>This is the contact page</h1>
+      <br />
+      <h2>Contact Me</h2>
+      <Footer />
     </>
   );
 }
