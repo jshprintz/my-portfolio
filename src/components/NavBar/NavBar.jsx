@@ -16,13 +16,30 @@ class Navigation extends Component {
     const { activeItem } = this.state;
     return (
       <div className="nav-bar">
-        
-          <div className="icons">
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/jshprintz"><Icon name="github" size="big"></Icon></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jasonshprintz/"><Icon name="linkedin" size="big"></Icon></a>
-            <a href="mailto:jshprintz@gmail.com"><Icon name="mail" size="big"></Icon></a>
+        <div className="icons">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/jshprintz"
+          ><div className="icon-size">
+            <Icon name="github" size="big"></Icon>
           </div>
-          <Grid centered>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/jasonshprintz/"
+          ><div className="icon-size">
+            <Icon name="linkedin" size="big"></Icon>
+            </div>
+          </a>
+          <a href="mailto:jshprintz@gmail.com">
+          <div className="icon-size">
+            <Icon name="mail" size="big"></Icon>
+          </div>
+          </a>
+        </div>
+        <Grid centered>
           <Grid.Row>
             <p className="header-img-name">
               <Link to="/">

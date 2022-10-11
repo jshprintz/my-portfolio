@@ -14,3 +14,7 @@
     flex-direction: row;
     justify-content: left;
 }
+
+.icon-size {
+    height: 40px;
+}
