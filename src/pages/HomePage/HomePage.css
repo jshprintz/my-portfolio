@@ -5,10 +5,17 @@
   padding-left: 10%;
 }
 
+.intro-text-skills {
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    font-size: 22pt;
+}
+
 .intro-text-container {
   width: 90%;
   padding-left: 1%;
 }
+
 
 .first-animation {
   animation: moveInBottom 2s ease-in-out 0s both;
@@ -20,6 +27,22 @@
 
 .third-animation {
   animation: moveInBottom 2s ease-in-out 3.5s both;
+}
+
+.fourth-animation {
+  animation: moveInBottom 2s ease-in-out 4.5s both;
+}
+
+.fifth-animation {
+    animation: moveInBottom 2s ease-in-out 5s both;
+}
+
+.sixth-animation {
+    animation: moveInBottom 2s ease-in-out 5.5s both;
+}
+
+.seventh-animation {
+    animation: moveInBottom 2s ease-in-out 6s both;
 }
 
 @keyframes moveInBottom {

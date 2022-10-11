@@ -48,7 +48,7 @@ class Navigation extends Component {
                 <Image
                   circular
                   centered
-                  size="tiny"
+                  size="small"
                   src="https://i.imgur.com/yG48EBV.png"
                 />
                 Jason Shprintz
@@ -76,16 +76,6 @@ class Navigation extends Component {
                 onClick={this.handleClick}
               >
                 Portfolio
-              </Menu.Item>
-              <Menu.Item
-                as={NavLink}
-                exact
-                to="/contact"
-                name="contact"
-                active={activeItem === "contact"}
-                onClick={this.handleClick}
-              >
-                Contact
               </Menu.Item>
             </Menu>
           </Grid.Row>
