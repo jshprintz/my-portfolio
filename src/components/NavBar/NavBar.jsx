@@ -22,7 +22,6 @@ class Navigation extends Component {
             <Icon name="linkedin" size="big"></Icon>
             <Icon name="mail" size="big"></Icon>
           </div>
-          <span className="question"><Icon name="help circle" size="big"></Icon></span>
           <Grid centered>
           <Grid.Row>
             <p className="header-img-name">
