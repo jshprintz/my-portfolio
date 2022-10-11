@@ -45,6 +45,16 @@
     animation: moveInBottom 2s ease-in-out 6s both;
 }
 
+
+
+.badge {
+    size: 2vw;
+}
+
+
+
+
+
 @keyframes moveInBottom {
   0% {
     opacity: 0;
