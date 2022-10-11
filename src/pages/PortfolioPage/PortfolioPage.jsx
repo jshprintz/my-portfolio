@@ -3,6 +3,8 @@ import NavBar from "../../components/NavBar/NavBar";
 import { Card } from "semantic-ui-react";
 import HaikuCard from "../../components/HaikuCard/HaikuCard";
 import MinesweeperCard from "../../components/MinesweeperCard/MinesweeperCard";
+import BowlingCard from "../../components/BowlingCard/BowlingCard";
+import DrunkCard from "../../components/iDrunkCard/iDrunkCard";
 import "./PortfolioPage.css";
 
 function PortfolioPage() {
@@ -14,6 +16,8 @@ function PortfolioPage() {
         <Card.Group itemsPerRow={2} stackable centered>
           <HaikuCard />
           <MinesweeperCard />
+          <BowlingCard />
+          <DrunkCard />
         </Card.Group>
       </div>
     </>

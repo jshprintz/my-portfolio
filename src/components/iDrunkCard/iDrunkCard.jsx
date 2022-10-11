@@ -1,18 +1,18 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
 
-const MinesweeperCard = () => (
-  
+const iDrunkCard = () => (
   <Card raised href="/" centered style={{ width: 350 }}>
-    <img src="https://i.imgur.com/V0XIXJ1.png" alt="Haiku"/>
+    <img src="https://i.imgur.com/GvM9REv.png" alt="iDrunk" />
     <Card.Content>
-      <Card.Header>Mega Minesweeper</Card.Header>
+      <Card.Header>iDrunk</Card.Header>
       <Card.Meta>Created 2022</Card.Meta>
       <Card.Description>
-        A browser-based game made with only HTML, CSS, and JavaScript
+        Social media application built using Django, Python, AWS, and
+        PostgreSQL. (Group Project)
       </Card.Description>
     </Card.Content>
   </Card>
 );
 
-export default MinesweeperCard;
+export default iDrunkCard;
