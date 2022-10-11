@@ -18,9 +18,9 @@ class Navigation extends Component {
       <div className="nav-bar">
         
           <div className="icons">
-            <Icon name="github" size="big"></Icon>
-            <Icon name="linkedin" size="big"></Icon>
-            <Icon name="mail" size="big"></Icon>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/jshprintz"><Icon name="github" size="big"></Icon></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jasonshprintz/"><Icon name="linkedin" size="big"></Icon></a>
+            <a href="mailto:jshprintz@gmail.com"><Icon name="mail" size="big"></Icon></a>
           </div>
           <Grid centered>
           <Grid.Row>
