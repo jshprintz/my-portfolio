@@ -8,3 +8,15 @@
     margin: 10px;
     border-radius: 10px;
 }
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.question {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
