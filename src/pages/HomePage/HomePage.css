@@ -45,10 +45,9 @@
     animation: moveInBottom 2s ease-in-out 6s both;
 }
 
-
-
 .badge {
-    size: 2vw;
+    height: auto;
+    width: 150px;
 }
 
 
