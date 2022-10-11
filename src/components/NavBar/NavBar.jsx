@@ -21,28 +21,30 @@ class Navigation extends Component {
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/jshprintz"
-          ><div className="icon-size">
-            <Icon name="github" size="big"></Icon>
-          </div>
+          >
+            <div className="icon-size">
+              <Icon name="github" size="big" className="link-color"></Icon>
+            </div>
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/jasonshprintz/"
-          ><div className="icon-size">
-            <Icon name="linkedin" size="big"></Icon>
+          >
+            <div className="icon-size">
+              <Icon name="linkedin" size="big" className="link-color"></Icon>
             </div>
           </a>
           <a href="mailto:jshprintz@gmail.com">
-          <div className="icon-size">
-            <Icon name="mail" size="big"></Icon>
-          </div>
+            <div className="icon-size">
+              <Icon name="mail" size="big" className="link-color"></Icon>
+            </div>
           </a>
         </div>
         <Grid centered>
           <Grid.Row>
             <p className="header-img-name">
-              <Link to="/">
+              <Link to="/" className="link-color">
                 <Image
                   circular
                   centered
