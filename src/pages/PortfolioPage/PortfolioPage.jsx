@@ -5,7 +5,6 @@ import HaikuCard from "../../components/HaikuCard/HaikuCard";
 import MinesweeperCard from "../../components/MinesweeperCard/MinesweeperCard";
 import BowlingCard from "../../components/BowlingCard/BowlingCard";
 import DrunkCard from "../../components/iDrunkCard/iDrunkCard";
-import Footer from "../../components/Footer/Footer";
 import "./PortfolioPage.css";
 
 function PortfolioPage() {
@@ -29,7 +28,6 @@ function PortfolioPage() {
         <br />
         <br />
       </div>
-      <Footer />
     </>
   );
 }

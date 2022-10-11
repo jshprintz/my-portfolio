@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
-import Footer from "../../components/Footer/Footer";
 import { Segment, Grid } from "semantic-ui-react";
 import "./AboutPage.css";
 
@@ -46,7 +45,6 @@ function AboutPage() {
         <br />
       </Grid.Row>
       </Grid>
-    <Footer />
     </>
   );
 }
