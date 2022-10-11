@@ -13,7 +13,7 @@ function PortfolioPage() {
       <NavBar />
       <div className="cards">
         <br />
-        <h2>My Portfolio</h2>
+        <p className="portfolio-text ">My Portfolio</p>
         <br />
         <Card.Group itemsPerRow={2} stackable centered>
           <HaikuCard />

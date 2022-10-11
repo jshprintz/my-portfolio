@@ -1,48 +1,47 @@
 .intro-text {
-    font-family: 'Source Code Pro', monospace;
-    text-align: left;
-    font-size: 22pt;
-    padding-left: 10%;
+  font-family: "Source Code Pro", monospace;
+  text-align: left;
+  font-size: 22pt;
+  padding-left: 10%;
 }
 
 .intro-text-container {
-    width: 90%;
-    padding-left: 1%;
+  width: 90%;
+  padding-left: 1%;
 }
 
-
-.first-animation{
-    animation: moveInBottom 2s ease-in-out 0s both;
+.first-animation {
+  animation: moveInBottom 2s ease-in-out 0s both;
 }
 
-.second-animation{
-    animation: moveInBottom 2s ease-in-out 1s both;
+.second-animation {
+  animation: moveInBottom 2s ease-in-out 1.5s both;
 }
 
-.third-animation{
-    animation: moveInBottom 2s ease-in-out 2s both;
+.third-animation {
+  animation: moveInBottom 2s ease-in-out 3.5s both;
 }
-
 
 @keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(50vh)
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(50vh);
+  }
 
-    70% {opacity: 1;
-        transform: translateY(-10%)
-    }
+  70% {
+    opacity: 1;
+    transform: translateY(-10%);
+  }
 
-    80% {
-        transform: translateY(5%)
-    }
-  
-    90% {
-        transform: translateY(-2%)
-    }
-  
-    100% {
-        transform: translate(0);
-    }
+  80% {
+    transform: translateY(5%);
+  }
+
+  90% {
+    transform: translateY(-2%);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
