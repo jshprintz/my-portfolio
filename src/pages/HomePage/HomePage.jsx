@@ -7,13 +7,13 @@ function HomePage() {
     return (
         <>
         <NavBar />
-        <p className='intro-text'>Hi, I'm Jason!</p>
+        <p className='intro-text first-animation'>Hi, I'm Jason!</p>
         <div className='intro-text-container'>
-        <p className='intro-text'>I'm a Full Stack Web Developer living in Las Vegas, NV.</p>
+        <p className='intro-text second-animation'>I'm a Full Stack Web Developer living in Las Vegas, NV.</p>
         </div>
         <br />
         <div className='intro-text-container'>
-        <p className='intro-text'>Check out my skills:</p>
+        <p className='intro-text third-animation'>Check out my skills:</p>
         </div>
         </>
     )
