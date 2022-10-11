@@ -8,7 +8,7 @@ function AboutPage() {
       <NavBar />
       <h2>My Story</h2>
       <p>
-        {${`My passion for programming was sparked when I was in high school. I
+        My passion for programming was sparked when I was in high school. I
         created a game called “Perfect Pump” on the TI-83+ calculator. The game
         had a number displayed in currency, and the goal was to press a button
         and stop it perfectly on $20. The game was simple, but everyone really
@@ -28,7 +28,7 @@ function AboutPage() {
         natural problem solver, creative, and techie. Combining my skills and
         talents into a career is my number one goal, and I’m looking to join an
         innovative organization that’s working to solve problems both big and
-        small.`}}
+        small.
       </p>
     </>
   );
