@@ -1,27 +1,29 @@
-
 img {
-    height: 350px;
-    object-fit: cover;
+  height: 350px;
+  object-fit: cover;
 }
 
 .portfolio-text {
-    font-family: 'Source Code Pro', monospace;
-    text-align: center;
-    font-size: 22pt;
-    animation: sideToSide 5s ease-out infinite;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  font-size: 22pt;
+  animation: move 3s ease-out infinite;
 }
 
+.footer-space {
+  height: 100px;
+}
 
-@keyframes sideToSide {
-    0% {
-      transform: translateX(-2vh);
-    }
+.footer-grass {
+  height: 100px;
+  background-color: darkgreen;
+}
 
-    50% {
-      transform: translate(2vh);
-    }
-
-    100% {
-        transform: translatex(-2vh);
-      }
+@keyframes move {
+  0% {
+    transform: translatex(0);
   }
+  50% {
+    transform: translatex(-40px);
+  }
+}

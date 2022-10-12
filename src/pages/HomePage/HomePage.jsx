@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 import "./HomePage.css";
 
 function HomePage() {
@@ -121,9 +122,7 @@ function HomePage() {
           className="badge seventh-animation"
         />
       </div>
-      <div className="footer-space">
-
-      </div>
+      <Footer />
     </>
   );
 }

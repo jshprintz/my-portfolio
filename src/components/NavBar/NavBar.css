@@ -3,6 +3,10 @@
     font-size: 20pt;
 }
 
+.profile-image {
+    z-index: 1;
+}
+
 .nav-bar {
     padding: 10px;
     border-radius: 10px;
@@ -27,11 +31,19 @@
     color: rgb(217, 231, 127);
   }
 
-  .center {
+  .left {
     position: absolute;
     top:50%;
-    left:50%;
+    left:20%;
     transform: translate(-50%,-50%);
+  }
+
+  .right {
+    position: absolute;
+    top:20%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
   }
 
   .cloud {

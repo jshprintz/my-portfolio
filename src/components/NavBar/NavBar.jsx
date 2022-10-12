@@ -43,7 +43,7 @@ class Navigation extends Component {
         </div>
         <Grid centered>
           <Grid.Row>
-          <div className="center">
+          <div className="left">
           <div className="cloud"></div>
           </div>
             <p className="header-img-name">
@@ -58,6 +58,9 @@ class Navigation extends Component {
                 Jason Shprintz
               </Link>
             </p>
+          <div className="right">
+          <div className="cloud"></div>
+          </div>
           </Grid.Row>
           <Grid.Row>
             <Menu className="Navigation" compact borderless>
