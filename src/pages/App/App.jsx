@@ -6,6 +6,7 @@ import HomePage from "../HomePage/HomePage";
 import AboutPage from "../AboutPage/AboutPage";
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
 import HaikuPage from "../HaikuPage/HaikuPage";
+import MinesweeperPage from "../MinesweeperPage/MinesweeperPage";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       <Route
         path="/haiku"
         element={<HaikuPage />}
+      />
+      <Route
+        path="/minesweeper"
+        element={<MinesweeperPage />}
       />
     </Routes>
     </div>
