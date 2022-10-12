@@ -1,3 +1,7 @@
+.background {
+    background-color: rgba(0, 176, 255, .7);
+}
+
 .intro-text {
   font-family: "Source Code Pro", monospace;
   text-align: left;
@@ -45,10 +49,18 @@
     animation: moveInBottom 2s ease-in-out 6s both;
 }
 
+.row-badges {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .badge {
     width: auto;
     height: 40px;
-    margin: 0 5px;
+    margin: 5px;
 }
 
 
@@ -58,7 +70,7 @@
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateY(50vh);
+    transform: translateY(500px);
   }
 
   70% {

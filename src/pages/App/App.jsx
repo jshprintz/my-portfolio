@@ -8,6 +8,7 @@ import PortfolioPage from "../PortfolioPage/PortfolioPage";
 
 function App() {
   return (
+    <div className="background">
     <Routes>
       <Route
         path="/"
@@ -22,6 +23,7 @@ function App() {
         element={<PortfolioPage />}
       />
     </Routes>
+    </div>
   );
 }
 
