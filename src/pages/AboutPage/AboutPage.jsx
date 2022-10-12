@@ -9,7 +9,7 @@ function AboutPage() {
     <>
       <NavBar />
       <br />
-      <p className="about-text">My Story</p>
+      <p className="sub-header-text">My Story</p>
       <br />
       <Grid centered>
         <Segment raised style={{ width: 500 }}>

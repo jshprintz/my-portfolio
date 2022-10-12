@@ -5,6 +5,7 @@ import "./App.css";
 import HomePage from "../HomePage/HomePage";
 import AboutPage from "../AboutPage/AboutPage";
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
+import HaikuPage from "../HaikuPage/HaikuPage";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
       <Route
         path="/portfolio"
         element={<PortfolioPage />}
+      />
+      <Route
+        path="/haiku"
+        element={<HaikuPage />}
       />
     </Routes>
     </div>
