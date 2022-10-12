@@ -43,6 +43,9 @@ class Navigation extends Component {
         </div>
         <Grid centered>
           <Grid.Row>
+          <div className="center">
+          <div className="cloud"></div>
+          </div>
             <p className="header-img-name">
               <Link to="/" className="link-color">
                 <Image
@@ -50,6 +53,7 @@ class Navigation extends Component {
                   centered
                   size="small"
                   src="https://i.imgur.com/yG48EBV.png"
+                  className="profile-image"
                 />
                 Jason Shprintz
               </Link>

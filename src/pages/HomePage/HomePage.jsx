@@ -121,6 +121,9 @@ function HomePage() {
           className="badge seventh-animation"
         />
       </div>
+      <div className="footer-space">
+
+      </div>
     </>
   );
 }
