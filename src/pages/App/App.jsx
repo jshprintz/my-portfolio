@@ -7,6 +7,7 @@ import AboutPage from "../AboutPage/AboutPage";
 import PortfolioPage from "../PortfolioPage/PortfolioPage";
 import HaikuPage from "../HaikuPage/HaikuPage";
 import MinesweeperPage from "../MinesweeperPage/MinesweeperPage";
+import BLMPage from "../BLMPage/BLMPage";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
       <Route
         path="/minesweeper"
         element={<MinesweeperPage />}
+      />
+      <Route
+        path="/bowling"
+        element={<BLMPage />}
       />
     </Routes>
     </div>

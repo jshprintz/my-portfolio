@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 
 const BowlingCard = () => (
-  <Card raised href="/" centered style={{ width: 350 }}>
+  <Card raised href="/bowling" centered style={{ width: 350 }}>
     <img src="https://i.imgur.com/E7GX4us.png" alt="Bowling League Manager" />
     <Card.Content>
       <Card.Header>Bowling League Manager</Card.Header>
