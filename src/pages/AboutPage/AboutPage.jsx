@@ -12,7 +12,7 @@ function AboutPage() {
       <br />
       <Grid centered>
       <Segment raised piled style={{width: 500}} >
-        <p>
+        <p className="story">
           My passion for programming was sparked when I was in high school. I
           created a game called “Perfect Pump” on the TI-83+ calculator. The
           game had a number displayed in currency, and the goal was to press a
@@ -21,7 +21,7 @@ function AboutPage() {
           a program that everyone else used. I went on to take courses in C++
           and Java, but didn’t pursue it as a career until much later in life.
         </p>
-        <p>
+        <p className="story">
           I recently helped construct a VBA macro for my former company which
           was deployed to over 300+ independent contractors. After a short time
           at the company it was obvious that many of our tasks were repetitive
@@ -32,7 +32,7 @@ function AboutPage() {
           programming. I unlocked all the same feelings I had in high school
           after I made “Perfect Pump”.
         </p>
-        <p>
+        <p className="story">
           I enrolled into the General Assembly Software Engineering Immersive
           course because I realized that this is what makes me happiest. I’m a
           natural problem solver, creative, and techie. Combining my skills and

@@ -6,6 +6,13 @@
     animation: sideToSide 5s ease-out infinite;
 }
 
+.story {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 12pt;
+    text-align: left;
+}
+
 
 @keyframes sideToSide {
     0% {
