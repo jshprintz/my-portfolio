@@ -8,6 +8,7 @@ import PortfolioPage from "../PortfolioPage/PortfolioPage";
 import HaikuPage from "../HaikuPage/HaikuPage";
 import MinesweeperPage from "../MinesweeperPage/MinesweeperPage";
 import BLMPage from "../BLMPage/BLMPage";
+import IDrunkPage from "../iDrunkPage/iDrunkPage";
 
 function App() {
   return (
@@ -37,6 +38,11 @@ function App() {
         path="/bowling"
         element={<BLMPage />}
       />
+      <Route
+        path="/iDrunk"
+        element={<IDrunkPage />}
+      />
+      
     </Routes>
     </div>
   );

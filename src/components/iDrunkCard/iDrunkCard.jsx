@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 
 const iDrunkCard = () => (
-  <Card raised href="/" centered style={{ width: 350 }}>
+  <Card raised href="/iDrunk" centered style={{ width: 350 }}>
     <img src="https://i.imgur.com/GvM9REv.png" alt="iDrunk" />
     <Card.Content>
       <Card.Header>iDrunk</Card.Header>
