@@ -3,14 +3,6 @@ img {
   object-fit: cover;
 }
 
-.footer-space {
-  height: 100px;
-}
-
-.footer-grass {
-  height: 100px;
-  background-color: rgb(0, 102, 0, .7);
-}
 
 @keyframes move {
   0% {
