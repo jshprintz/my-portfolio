@@ -1,9 +1,27 @@
-import React from "react";
+import React, { Component } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import { Grid, Segment } from "semantic-ui-react";
 
-export default function BLMPage() {
+class BLMPage extends Component {
+
+
+  constructor(props) {
+    super(props);
+    this.state = { matches: window.matchMedia("(min-width: 768px)").matches };
+  }
+
+  componentDidMount() {
+    const handler = (e) => this.setState({ matches: e.matches });
+    window.matchMedia("(min-width: 768px)").addEventListener("change", handler);
+  }
+
+
+  render() {
+    let segmentWidth;
+    this.state.matches && (segmentWidth = 500)
+    !this.state.matches && (segmentWidth = 300)
+
   return (
     <>
       <NavBar />
@@ -42,7 +60,7 @@ export default function BLMPage() {
         </Grid.Row>
         <Grid.Row>
           <Segment raised className="third-animation">
-            <p className="story" style={{ width: 400 }}>
+            <p className="story" style={{ width: segmentWidth }}>
               FINALLY, an easy to use league manager application designed to
               organize all of your leagues, teams, and players! Stop fumbling
               with clipboards and spreadsheets. Download the ULTIMATE Bowling
@@ -104,3 +122,6 @@ export default function BLMPage() {
     </>
   );
 }
+}
+
+export default BLMPage;
