@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import { Card } from "semantic-ui-react";
 import HaikuCard from "../../components/HaikuCard/HaikuCard";
@@ -16,7 +16,7 @@ function PortfolioPage() {
         <br />
         <p className="sub-header-text ">My Portfolio</p>
         <br />
-        <Card.Group itemsPerRow={2} centered>
+        <Card.Group itemsPerRow={2} stackable centered>
           <HaikuCard />
           <MinesweeperCard />
           <BowlingCard />

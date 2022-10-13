@@ -15,10 +15,11 @@ class AboutPage extends Component {
     window.matchMedia("(min-width: 768px)").addEventListener("change", handler);
   }
 
+  
   render() {
-    let segmentWidth;
-    this.state.matches && (segmentWidth = 600)
-    !this.state.matches && (segmentWidth = 300)
+    let screenWidth;
+    this.state.matches && (screenWidth = 600)
+    !this.state.matches && (screenWidth = 300)
 
     return (
       <>
@@ -27,7 +28,7 @@ class AboutPage extends Component {
         <p className="sub-header-text">My Story</p>
         <br />
         <Grid centered>
-          <Segment raised style={{ width: segmentWidth }}>
+          <Segment raised style={{ width: screenWidth }}>
             <p className="story">
               My passion for programming was sparked when I was in high school.
               I created a game called “Perfect Pump” on the TI-83+ calculator.
