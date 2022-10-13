@@ -1,10 +1,26 @@
-import React from "react";
+import React, { Component } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import { Grid, Segment } from "semantic-ui-react";
 
 
-export default function HaikuPage() {
+class HaikuPage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { matches: window.matchMedia("(min-width: 768px)").matches };
+  }
+
+  componentDidMount() {
+    const handler = (e) => this.setState({ matches: e.matches });
+    window.matchMedia("(min-width: 768px)").addEventListener("change", handler);
+  }
+
+
+  render() {
+    let segmentWidth;
+    this.state.matches && (segmentWidth = 500)
+    !this.state.matches && (segmentWidth = 300)
+
   return (
     <>
       <NavBar />
@@ -42,8 +58,8 @@ export default function HaikuPage() {
           </a>
         </Grid.Row>
         <Grid.Row>
-          <Segment raised className="third-animation">
-            <p className="story" style={{ width: 400 }}>
+          <Segment raised className="third-animation" style={{ width: segmentWidth }}>
+            <p className="story" >
               A fun social media app built around the love of the classic
               short-form poetry. Spend countless hours scanning through haikus
               from famous authors and undiscovered poets. Signup today and
@@ -118,3 +134,6 @@ export default function HaikuPage() {
     </>
   );
 }
+}
+
+export default HaikuPage;
