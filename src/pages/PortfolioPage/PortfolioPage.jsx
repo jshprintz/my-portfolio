@@ -16,7 +16,7 @@ function PortfolioPage() {
         <br />
         <p className="sub-header-text ">My Portfolio</p>
         <br />
-        <Card.Group itemsPerRow={2} stackable centered>
+        <Card.Group itemsPerRow={2} centered>
           <HaikuCard />
           <MinesweeperCard />
           <BowlingCard />
