@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
 import { Segment, Grid } from "semantic-ui-react";
-import "./AboutPage.css";
 
 class AboutPage extends Component {
   constructor(props) {
