@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import LazyLoad from "react-lazy-load";
 import { Grid, Segment } from "semantic-ui-react";
 
 class HaikuPage extends Component {
@@ -28,13 +27,11 @@ class HaikuPage extends Component {
         <br />
         <Grid centered>
           <Grid.Row>
-          <LazyLoad width={350} offset={100} >
             <img
               className="image-details"
               src="https://i.imgur.com/2ILCi8H.png"
               alt="Haiku For You"
             />
-          </LazyLoad>
           </Grid.Row>
           <Grid.Row>
             <a

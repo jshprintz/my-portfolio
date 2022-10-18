@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import LazyLoad from "react-lazy-load";
 import { Grid, Segment } from "semantic-ui-react";
 
 class iDrunkPage extends Component {
@@ -28,13 +27,11 @@ class iDrunkPage extends Component {
         <br />
         <Grid centered>
           <Grid.Row>
-          <LazyLoad width={350} offset={100} >
             <img
               className="image-details"
               src="https://i.imgur.com/GvM9REv.png"
               alt="iDrunk"
             />
-            </LazyLoad>
           </Grid.Row>
           <Grid.Row>
             <a
