@@ -12,6 +12,9 @@
 
 .image-details {
   border-radius: 50px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
 }
 
 .details-text {
